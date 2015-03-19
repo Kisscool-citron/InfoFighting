@@ -1,7 +1,15 @@
 # depslib dependency file v1.0
-1426117430 source:/home/kisscool/Desktop/projet/InfoFighting/main.cpp
-	<stdio.h>
+1426753349 source:/home/kisscool/Desktop/projet/InfoFighting/main.cpp
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<iostream>
 	<allegro.h>
+	"allegro5/allegro_image.h"
+	"allegro5/allegro_native_dialog.h"
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"options.h"
 
 1426061341 /etc/allegro/include/allegro5/allegro.h
 	"allegro5/base.h"
@@ -41,4 +49,57 @@
 	"allegro5/transformations.h"
 	"allegro5/utf8.h"
 	"allegro5/alcompat.h"
+
+1426753708 /home/kisscool/Desktop/projet/InfoFighting/options.h
+	<string>
+
+1426524758 source:/home/kisscool/Desktop/projet/InfoFighting/options.cpp
+	<cstdio>
+	<string>
+
+1426770299 source:/home/apocalypzer/Documents/InfoFighting/main.cpp
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<iostream>
+	<allegro5/allegro.h>
+	"allegro5/allegro_image.h"
+	"allegro5/allegro_native_dialog.h"
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	"options.h"
+
+1426753708 /home/apocalypzer/Documents/InfoFighting/options.h
+	<string>
+
+1426754415 source:/home/apocalypzer/Documents/InfoFighting/options.cpp
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<allegro.h>
+	"options.h"
+
+1426770890 source:/home/apocalypzer/Documents/InfoFighting/Combo.cpp
+	"Combo.h"
+
+1426776366 /home/apocalypzer/Documents/InfoFighting/Combo.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<Coup.h>
+	<allegro5/keycodes.h>
+
+1426776318 /home/apocalypzer/Documents/InfoFighting/include/Coup.h
+	<string>
+	<string.h>
+	<cstring>
+
+1426775586 source:/home/apocalypzer/Documents/InfoFighting/Personnage.cpp
+	"Personnage.h"
+
+1426775785 /home/apocalypzer/Documents/InfoFighting/Personnage.h
+	<stdio.h>
+	<allegro5/allegro.h>
+
+1426775440 source:/home/apocalypzer/Documents/InfoFighting/src/Coup.cpp
+	"Coup.h"
 

@@ -3,23 +3,37 @@
 #include <string>
 using namespace std;
 
-class Options
+class Option
 {
      private:
+          //int numero; ?
           string profile;
-          int DisplayMode;
-          float AudioGain;
+          int displayMode;
+          float audioGain;
      public:
-          Options();
+          //constructeurs
+          Option()
+          {
+               displayMode = 0;
+               profile = "defaut";
+               float audioGain = 1.0;
+          }
+          Option(string profile, int disp, float audio)
+          {
+               this->displayMode = disp;
+               this->profile = profile;
+               this->audioGain = audio;
+          }
+          //getters setters
           int getDisplayMode();
           void setDisplayMode(int);
           float getAudioGain();
-          void setAudioGain(int);
+          void setAudioGain(float);
 
-          void changeDisplayMode(int);
+          //fonctions
+          bool changeDisplayMode(ALLEGRO_DISPLAY*,int,ALLEGRO_DISPLAY_MODE);
           void changeAudioGain(float);
           void saveProfile(string);
-
 };
 
 

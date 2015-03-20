@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1426753349 source:/home/kisscool/Desktop/projet/InfoFighting/main.cpp
+1426770299 source:/home/kisscool/Desktop/projet/InfoFighting/main.cpp
 	<cstdio>
 	<cstdlib>
 	<fstream>
 	<iostream>
-	<allegro.h>
+	<allegro5/allegro.h>
 	"allegro5/allegro_image.h"
 	"allegro5/allegro_native_dialog.h"
 	<allegro5/allegro_audio.h>
@@ -53,9 +53,12 @@
 1426753708 /home/kisscool/Desktop/projet/InfoFighting/options.h
 	<string>
 
-1426524758 source:/home/kisscool/Desktop/projet/InfoFighting/options.cpp
+1426754415 source:/home/kisscool/Desktop/projet/InfoFighting/options.cpp
 	<cstdio>
-	<string>
+	<cstdlib>
+	<fstream>
+	<allegro.h>
+	"options.h"
 
 1426770299 source:/home/apocalypzer/Documents/InfoFighting/main.cpp
 	<cstdio>
@@ -102,4 +105,20 @@
 
 1426775440 source:/home/apocalypzer/Documents/InfoFighting/src/Coup.cpp
 	"Coup.h"
+
+1426770890 source:/home/kisscool/Desktop/projet/InfoFighting/Combo.cpp
+	"Combo.h"
+
+1426776366 /home/kisscool/Desktop/projet/InfoFighting/Combo.h
+	<stdio.h>
+	<allegro5/allegro.h>
+	<Coup.h>
+	<allegro5/keycodes.h>
+
+1426775586 source:/home/kisscool/Desktop/projet/InfoFighting/Personnage.cpp
+	"Personnage.h"
+
+1426775785 /home/kisscool/Desktop/projet/InfoFighting/Personnage.h
+	<stdio.h>
+	<allegro5/allegro.h>
 

@@ -1,0 +1,5 @@
+/*initialiserCombat();
+timerCombat();
+finCombat();
+commencerCombat();
+*/

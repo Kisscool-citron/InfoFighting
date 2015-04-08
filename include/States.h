@@ -3,7 +3,7 @@ class CState1 : public IState
 {
      void Init()
      {
-
+          //test
      }
      EState Process()
      {

@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="header/Coup.h" open="1" top="0" tabpos="1">
-		<Cursor position="98" topLine="6" />
+	<File name="source/options.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="header/Initialisation.h" open="1" top="0" tabpos="5">
-		<Cursor position="0" topLine="0" />
+	<File name="header/Coup.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="header/options.h" open="1" top="0" tabpos="4">
-		<Cursor position="504" topLine="11" />
+	<File name="source/main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4335" topLine="24" />
+		</Cursor>
 	</File>
-	<File name="include/States.h" open="1" top="1" tabpos="6">
-		<Cursor position="90" topLine="0" />
+	<File name="src/IState.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="source/main.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="4406" topLine="0" />
+	<File name="header/options.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
-	<File name="source/options.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="396" topLine="5" />
+	<File name="include/States.h" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3082" topLine="82" />
+		</Cursor>
+	</File>
+	<File name="include/IState.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="header/Initialisation.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

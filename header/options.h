@@ -1,5 +1,15 @@
 #ifndef OPTIONS_H_INCLUDED
 #define OPTIONS_H_INCLUDED
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <allegro5/allegro.h>
+#include "allegro5/allegro_image.h"
+#include "allegro5/allegro_native_dialog.h"
+#include <allegro5/allegro_audio.h>
+#include <allegro5/allegro_acodec.h>
+
 #include <string>
 using namespace std;
 

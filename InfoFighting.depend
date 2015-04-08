@@ -122,3 +122,48 @@
 	<stdio.h>
 	<allegro5/allegro.h>
 
+1427113087 source:/home/kisscool/Desktop/projet/InfoFighting/source/Coup.cpp
+	"../header/Initialisation.h"
+	"../header/Coup.h"
+
+1427110756 /home/kisscool/Desktop/projet/InfoFighting/header/Initialisation.h
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<iostream>
+	<allegro5/allegro.h>
+	"allegro5/allegro_image.h"
+	"allegro5/allegro_native_dialog.h"
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1427113440 /home/kisscool/Desktop/projet/InfoFighting/header/Coup.h
+	<string>
+	<cstring>
+
+1427895548 source:/home/kisscool/Desktop/projet/InfoFighting/source/main.cpp
+	"../header/Initialisation.h"
+	"../header/options.h"
+	"../header/Coup.h"
+	"../header/Jeu.h"
+
+1427121198 /home/kisscool/Desktop/projet/InfoFighting/header/options.h
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	<iostream>
+	<allegro5/allegro.h>
+	"allegro5/allegro_image.h"
+	"allegro5/allegro_native_dialog.h"
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<string>
+
+1427120897 source:/home/kisscool/Desktop/projet/InfoFighting/source/options.cpp
+	<cstdio>
+	<cstdlib>
+	<fstream>
+	"../header/options.h"
+
+1427893822 /home/kisscool/Desktop/projet/InfoFighting/header/Jeu.h
+

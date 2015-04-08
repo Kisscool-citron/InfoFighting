@@ -8,6 +8,7 @@ class Personnage{
 
     int pv ;
     int* Combo_speciaux;
+    Combo * liste_combo;
     int compteur_combo;
     int taille;
     int etat ; /*Etat 1 : sur le ground , etat 2 en l'air , etat 3 accroupie , etat 4 en combo */

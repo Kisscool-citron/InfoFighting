@@ -49,16 +49,15 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="header/Combo.h" />
 		<Unit filename="header/Coup.h" />
-		<Unit filename="header/Personnage.h" />
-		<Unit filename="header/Personnage_jouable.h" />
+		<Unit filename="header/Initialisation.h" />
 		<Unit filename="header/options.h" />
-		<Unit filename="source/Combo.cpp" />
-		<Unit filename="source/Personnage.cpp" />
+		<Unit filename="include/IState.h" />
+		<Unit filename="include/States.h" />
+		<Unit filename="source/Coup.cpp" />
 		<Unit filename="source/main.cpp" />
 		<Unit filename="source/options.cpp" />
-		<Unit filename="source/test.cpp" />
+		<Unit filename="src/IState.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

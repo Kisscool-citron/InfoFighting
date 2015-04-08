@@ -1,9 +1,7 @@
 #ifndef __INFOFIGHTING402v2__Combo__
 #define __INFOFIGHTING402v2__Combo__
 
-#include <stdio.h>
-#include <allegro5/allegro.h>
-#include <Coup.h>
+#include <../header/Coup.h>
 #include <allegro5/keycodes.h>
 
 class Combo

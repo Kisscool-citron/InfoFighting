@@ -1,8 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <fstream>
-#include <allegro.h>
-#include "options.h"
+#include "../header/options.h"
 
 using namespace std;
 

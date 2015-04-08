@@ -20,6 +20,7 @@ class Personnage_jouable : public Personnage
         {
             nom=autre.nom;
         }
+        Personnage_jouable(int choix);
         /*Retourne le nom du personnage*/
         String Get()
         {

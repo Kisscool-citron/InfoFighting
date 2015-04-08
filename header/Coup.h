@@ -1,14 +1,38 @@
 #ifndef COUP_H
 #define COUP_H
-
 #include <string>
-#include <string.h>
 #include <cstring>
 using namespace std;
 class Coup
 {
+     protected:
+     private:
+          string nom;
+          int nb_frame;
+          int garde;
+          int hit;
+          int counter;
+          int degat_hit;
+          int degat_counter;
+          int level;
+          int manip;
+          ALLEGRO_BITMAP** bitMapTab;
+          int nb_img;
     public:
         Coup();
+        Coup(int nb_frame,int garde,int hit,int counter,int degat_hit,int degat_counter,int level, int manip, ALLEGRO_BITMAP** bitMapTab, int nb_img)
+        {
+               this->nb_frame = nb_frame;
+               this->garde = garde;
+               this->hit = hit;
+               this->counter = counter;
+               this->degat_hit = degat_hit;
+               this->degat_counter = degat_counter;
+               this->level = level;
+               this->manip = manip;
+               this->nb_img = nb_img;
+               this->bitMapTab = bitMapTab;
+        }
         virtual ~Coup();
         Coup(const Coup& other);
         Coup& operator=(const Coup& other);
@@ -102,17 +126,22 @@ class Coup
         {
             manip = val;
         }
-    protected:
-    private:
-        string nom;
-        int nb_frame;
-        int garde;
-        int hit;
-        int counter;
-        int degat_hit;
-        int degat_counter;
-        int level;
-        int manip;
+         ALLEGRO_BITMAP** Getimg()
+        {
+            return bitMapTab;
+        }
+         /*etablie la manip*/
+         int Getnbimg()
+        {
+            return nb_img;
+        }
+         /*etablie la manip*/
+        void Setnbimg(int val)
+        {
+            nb_img = val;
+        }
+
 };
 
-#endif // COUP_H
+
+#endif //      COUP_H
